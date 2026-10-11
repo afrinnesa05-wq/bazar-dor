@@ -33,6 +33,7 @@ export const auth = betterAuth({
     "http://localhost:3000",
     "http://localhost:3001",
     "https://bazar-dor-rho-lyart.vercel.app",
+    "https://bazar-14996d7yw-foyjun-nesa.vercel.app",
   ],
 
   secret: process.env.BETTER_AUTH_SECRET,
