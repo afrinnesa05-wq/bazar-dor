@@ -16,7 +16,10 @@ const db = client.db("bazar-dor");
 export const auth = betterAuth({
   baseURL:
     process.env.BETTER_AUTH_URL ||
-    "https://bazar-e65h4tlzq-foyjun-nesa.vercel.app",
+    "https://bazar-dor-rho-lyart.vercel.app",
+    trustedOrigins: [
+  "https://bazar-dor-rho-lyart.vercel.app",
+],
 
   secret: process.env.BETTER_AUTH_SECRET,
 
