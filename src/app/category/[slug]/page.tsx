@@ -14,9 +14,9 @@ type Product = {
   categoryNameBn?: string;
   categoryIcon?: string;
   change?: {
-    dir: string;
-    pct: number;
-  };
+  dir: "up" | "down" | "same";
+  pct: number;
+};
 };
 
 type Category = {
