@@ -44,8 +44,7 @@ Bazar Dor helps users explore everyday market prices through a simple, responsiv
 
 1. Clone the repository:
 
-   bash
-   git clone YOUR_GITHUB_REPOSITORY_URL
+   https://github.com/afrinnesa05-wq/bazar-dor.git
    
 
 2. Open the project folder:
